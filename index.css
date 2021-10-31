@@ -41,6 +41,7 @@
     padding-top: 15px;
     padding-bottom: 15px;
     text-align: center;
+    font-family: sans-serif;
 }
 
 .item-card-subtitle{
@@ -50,6 +51,8 @@
     padding-bottom: 15px;
     max-width: 217px;
     margin: 0px auto;
+    color: #A4A6AE;
+    font-weight: 600;
 }
 
 .item-price{
@@ -88,6 +91,12 @@
 .item-price-current-plan-name{
     font-size: 14px;
     font-weight: bold;
+    font-family: sans-serif;
+}
+
+.item-price-current-plan-price{
+    color: #A4A6AE;
+    font-weight: 600;
 }
 
 .item-order-actions{
@@ -111,7 +120,8 @@
 }
 
 .btn-cancel{
-    background-color:white;
-    color: black;
+    background-color: white;
     text-align: center;
+    font-weight: 600;
+    color: #989CAD;
 }
