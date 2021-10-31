@@ -1,0 +1,117 @@
+.container{
+    background-color: #F0F0F0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item-area{
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-color: #E0E8FF;
+    background-size: 100% 56%;
+    width: 800px;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+}
+
+.item-card{
+    border-radius: 25px;
+    box-shadow: 2px 6px 50px #d2dbf9;
+    overflow: hidden;
+}   
+
+.item-card-banner{
+    background-image: url('./images/illustration-hero.svg');
+    background-image: url(./images/illustration-hero.svg);
+    height: 220px;
+    width: 452px;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.item-card-description{
+    background-color: white;
+}
+
+.item-card-title{
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.item-card-subtitle{
+    font-size: 13px;
+    font-weight: lighter;
+    text-align: center;
+    padding-bottom: 15px;
+    max-width: 217px;
+    margin: 0px auto;
+}
+
+.item-price{
+    background-color: #F8F9FE;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 12px 0px;
+    max-width: 311px;
+    margin: 0px auto;
+}
+
+.item-price-current-plan{
+    display: flex;
+    align-items: center;
+    gap:10px
+}
+
+.item-logo{
+    background-image: url('./images/icon-music.svg');
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+}
+
+.item-price-plan{
+    display: flex;
+    flex-direction: column;
+    row-gap: 3px;
+}
+
+.item-update-price-plan-buttom > a{
+    color: #1D20CF;
+    font-weight: bold;
+}
+.item-price-current-plan-name{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.item-order-actions{
+    padding: 30px 65px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.btn{
+    padding: 15px 50px;
+    border: 1px solid transparent;
+}
+
+.btn-primary{
+    background-color: #3929E1;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 1px 2px 7px #3929e1;
+}
+
+.btn-cancel{
+    background-color:white;
+    color: black;
+    text-align: center;
+}
